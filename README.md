@@ -26,3 +26,11 @@ From this directory run `python -m http.server 8000` and open http://localhost:8
 ## Next enhancements
 
 Full import with source-of-truth catalog review, multiple photos per plant, true recursive ancestor lookup from an independently verified RHS pedigree dataset, photo-date bloom calendar, breeding project pages, private maintenance data, and a lightweight editing interface.
+
+## Version 2 profile layout
+
+Plant profiles now use a fixed 4:3 image frame (`object-fit: contain`), a separate identity/registrant panel, collection-stat cards, and the existing interactive parentage tree. The explorer is unchanged.
+
+Optional new data fields: `registrant` (verified original registrant and year), `acquired` (ISO acquisition date). Collection tenure stays **Not recorded** until `acquired` is known.
+
+To update your GitHub site, replace the repository files with the contents of this folder, retaining the `assets/` directory.
